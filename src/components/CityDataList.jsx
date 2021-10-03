@@ -19,6 +19,7 @@ import colors from '../consts/colors';
 const CityDataList = (props) => {
     const { data = {} } = props;
 
+    /* eslint-disable no-unused-vars */
     const {
         activeSick,
         activeSickTo1000,
@@ -32,7 +33,8 @@ const CityDataList = (props) => {
         score,
         secondDose
     } = data;
-
+    /* eslint-enable no-unused-vars */
+    
     const lastUpdate = useMemo(() => {
         if (!date) {
             return null;

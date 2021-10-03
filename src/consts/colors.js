@@ -1,6 +1,6 @@
 import { green, yellow, orange, red } from '@mui/material/colors';
 
-export default {
+const colors = {
     RED: {
         name: 'red',
         hebrewName: 'אדום',
@@ -30,3 +30,5 @@ export default {
         minScore: 0,
     },
 }
+
+export default colors;
