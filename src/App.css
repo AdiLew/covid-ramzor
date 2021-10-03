@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.appWrapper{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.contentWrapper{
+  flex-grow: 1;
+}
